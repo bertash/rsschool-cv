@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>CV</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<img src="assets/main.png" alt="avatar" class="photo" />
+				<div class="student-info">
+					<h1>YAUHENI BERTASH</h1>
+					<h4>The Rolling Scopes student</h4>
+					<div class="line"></div>
+				</div>
+			</header>
+			<aside>
+				<h3>CONTACTS</h3>
+				<ul class="contacts-list">
+					<li>
+						<a href="mailto:y.bertash@gmail.com"
+							>y.bertash@gmail.com</a
+						>
+					</li>
+					<li><a href="tel:+375445717675">+375445717675</a></li>
+				</ul>
+
+				<h3>SKILLS</h3>
+				<ul class="skills-list">
+					<li>HTML/CSS</li>
+					<li>Javascript/ES5/ES6</li>
+					<li>Bootstrap</li>
+					<li>SASS / SCSS</li>
+					<li>React Basic</li>
+				</ul>
+
+				<h3>CODE EXAMPLES</h3>
+				<pre>
+          function findOutlier(integers){
+            let odd = [];
+            let even = [];
+            integers.map(item => {
+              item%2==0 ? even.push(item) : odd.push(item);
+            });
+            return odd.length == 1 ? odd[0] : even[0];
+          }
+        </pre
+				>
+			</aside>
+			<main>
+				<section class="about">
+					<h3>ABOUT ME</h3>
+					<p>
+						I am keen on football, playing guitar, computer games. I
+						have started learning Javascript since September 2020.
+						Now i am going to improve my skills in ES6.
+					</p>
+				</section>
+
+				<section class="education">
+					<h3>EDUCATION</h3>
+					<ul>
+						<li>
+							<b>Baranovichi State University</b> (2011 - 2012)
+						</li>
+						<li><i>Faculty of Economics and Law</i></li>
+						<li><b>Hrodno State University</b> (2012 - 2016)</li>
+						<li><i>Faculty of Law</i></li>
+						<li><b>Rolling Scopes School</b> (2021 - ... )</li>
+					</ul>
+				</section>
+
+				<section class="courses">
+					<h3>COURSES</h3>
+					<ul>
+						<li>
+							<b>[udemy.com]</b> Learning React + Redux course by
+							Yury Bura (2020)
+						</li>
+						<li>
+							<b>[udemy.com]</b> Web developer by Ivan Petrichenko
+							(2020)
+						</li>
+						<li>
+							<b>[udemy.com]</b> The Complete JavaScript + React
+							Course by Ivan Petrichenko (2020)
+						</li>
+					</ul>
+				</section>
+
+				<section class="lang">
+					<h3>LANGUAGES</h3>
+					<ul>
+						<li>Belarusian - native</li>
+						<li>Russian - native</li>
+						<li>English - pre-intermediate</li>
+					</ul>
+				</section>
+			</main>
+
+			<footer>
+				<a class="gh-link" href="https://github.com/bertash"
+					><img src="assets/gh.png" alt="github"
+				/></a>
+
+				<p class="date">2021</p>
+
+				<a href="https://rs.school/js/" class="course-link"
+					><img src="assets/rs_school_js.svg" alt="rss-logo"
+				/></a>
+			</footer>
+		</div>
+	</body>
+</html>
