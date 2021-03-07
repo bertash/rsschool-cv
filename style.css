@@ -1,0 +1,91 @@
+* {
+	font-family: 'Acme', sans-serif;
+	box-sizing: border-box;
+	color: #514938;
+}
+
+body {
+	background-color: #e6e3d3;
+	margin: 0;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	color: #514938;
+}
+
+h3 {
+	color: #585d37;
+}
+
+h4 {
+	color: #514938;
+}
+
+.container {
+	background-color: #e6e3d3;
+	width: 1000px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+header {
+	display: flex;
+	justify-content: left;
+	background-color: #cacca9;
+	padding: 10px 10px;
+	width: 100%;
+	border-radius: 10px;
+}
+
+.photo {
+	width: 200px;
+	border-radius: 10%;
+}
+
+.student-info {
+	padding-left: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.line {
+	border-bottom: 2px solid #514938;
+}
+aside {
+	padding-left: 10px;
+	width: 35%;
+	border-right: 2px solid #514938;
+	margin: 10px 0;
+}
+
+i {
+	font-size: 0.9rem;
+}
+
+main {
+	width: 65%;
+	padding-left: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #514938;
+}
+
+ul {
+	padding: 20px;
+}
+
+li {
+	list-style-type: none;
+}
+
+p {
+	padding-left: 20px;
+}
